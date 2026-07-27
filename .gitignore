@@ -48,3 +48,14 @@ venv/
 # Quarantine holding area (contents not committed)
 .agents/quarantine/*
 !.agents/quarantine/.gitkeep
+
+# Product runtime secrets (never commit)
+**/peer_token
+**/device.env
+**/*.sk
+**/commander.sk
+**/master.key
+**/debug.keystore
+**/*.apk
+products/**/data/
+products/**/.env

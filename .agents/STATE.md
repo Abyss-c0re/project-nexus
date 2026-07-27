@@ -1,39 +1,34 @@
 # Project state
 
-**Updated:** 2026-07-27T21:55:00+03:00  
+**Updated:** 2026-07-27T22:25:00+03:00  
 **Branch:** master  
 **Remote:** `[company-gitlab redacted]`  
-**Phase:** foundation — docs + ops plane
+**Phase:** ecosystem import — CubeOS monorepo
 
 ## Active goals
 
-1. Maintain professional OSS baseline (docs, security, privacy, compliance)
-2. Keep always-on **manager** agent for collaboration continuity
-3. Enforce repo hygiene via **watcher** (no game content, no media dumps, no secrets)
-4. Implement product surface for trace analysis (next engineering phase)
+1. Grokium core deploys/oversees nanobot fleet (SMX + integrity)  
+2. Nanobot binary + universal Web/Android apps  
+3. Clanker stack (no tokens, no Kinect)  
+4. CubeOS join/recycle contracts Linux+Android  
+5. Optional VR manifestor  
+6. Always-on manager + hygiene watcher  
 
-## Contacts (fill when available)
+## Restrictions (hard)
 
-| Role | Contact |
-|------|---------|
-| Security reports | _TBD — set private channel_ |
-| Maintainer | [maintainer redacted] |
-| Partner compliance | Follow engagement contract |
+- No personal data on mesh  
+- No access tokens in git  
+- No Kinect  
+- No third-party AI lab affiliation claims  
+- Integrity fail-closed  
 
 ## Manager
 
-- Script: `.agents/manager/manager.sh`
-- Expected: process running; heartbeat age < 120s
+`.agents/manager/manager.sh` — must remain running on active workstations.
 
-## Open decisions
+## Next engineering
 
-- [ ] SPDX license selection
-- [ ] Public security contact address
-- [ ] CI pipeline (lint + secret scan)
-
-## Forbidden in tree
-
-- Prophecy of the Cube / cube lore / hive-mind game assets
-- Large media (mp4, wav, multi‑MB png dumps)
-- Third-party AI lab branding / co-marketing
-- Secrets and credential material
+- [ ] Wire grokium `hive deploy` against in-tree nanobot binary  
+- [ ] Android universal app beyond scaffold  
+- [ ] CI: secret scan + build nanobot host  
+- [ ] SPDX root license  

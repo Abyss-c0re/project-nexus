@@ -1,1 +1,2 @@
 {"ts":"2026-07-27T18:55:00Z","type":"bootstrap","summary":"Ops plane + compliance baseline established"}
+{"ts":"2026-07-27T19:25:00Z","type":"ecosystem","summary":"Joined CubeOS monorepo: grokium+nanobot+clanker+cubeos; SMX/integrity; no tokens/kinect/PII"}

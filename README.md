@@ -1,40 +1,56 @@
-# Project Nexus
+# Project Nexus · CubeOS Ecosystem
 
-**Project Nexus** is an open-source platform for structured trace analysis, secure collaboration, and privacy-preserving data workflows.
+**Open-source hive OS mesh** for recycling devices into a nanobot-powered network: **Grokium core**, **nanobot** peers, **universal apps** (Web + Android), **Clanker** robot stack, optional **VR** view.
 
-This repository is maintained as a **professional B2B-ready open source project**: clean history, clear docs, security-first defaults, and no product-unrelated material.
+Independent project. **Not affiliated** with third-party AI labs or consumer chatbot brands.
 
-## Principles
+## The Key
 
-| Pillar | Commitment |
-|--------|------------|
-| **Privacy by design** | Personal data is minimized, purpose-bound, and protected end-to-end |
-| **Security baseline** | MFA-friendly ops, least privilege, no secrets in tree, audit-friendly process |
-| **Professional hygiene** | No game/fan content, no large media dumps, no mixed personal projects |
-| **Agent + human collab** | Continuous manager process under `.agents/` with durable handoff state |
+| Law | Practice |
+|-----|----------|
+| **No personal data. Never.** | State Matrix binary only on the mesh |
+| **Integrity fails closed** | Leak / unknown egress → DENY |
+| **Cube is SoT** | Lattice wins over prose |
+| **Devices free** | User sovereign per device; recycle into CubeOS |
+| **Move honestly** | No invented success |
 
-## Documentation
+Full law: [`docs/cube/CUBE_LAW.md`](docs/cube/CUBE_LAW.md) · Architecture: [`docs/ECOSYSTEM.md`](docs/ECOSYSTEM.md)
 
-- [Security policy](docs/SECURITY.md)
-- [Privacy & data protection](docs/PRIVACY.md)
-- [B2B partner compliance](docs/COMPLIANCE.md)
-- [Code of conduct](docs/CODE_OF_CONDUCT.md)
-- [Contributing](docs/CONTRIBUTING.md)
-
-## Repository layout
+## Tree
 
 ```
-docs/           Public product & compliance documentation
-.agents/        Hidden ops plane for humans and AI agents (handoff, manager, watcher)
+products/grokium       Core harness — deploy & oversee nanobots
+products/nanobot       C binary peer
+products/nanobot-app   Universal Web + Android clients
+products/clanker       Robot stack (no tokens · no Kinect)
+products/cubeos        Shared Linux/Android mesh contracts
+products/vr-manifest   Optional VR interaction
+cores/state-matrix     SMX core notes
+cores/integrity        Integrity shell notes
+docs/                  Security · privacy · compliance · cube
+.agents/               Manager · watcher · handoff bus
 ```
 
-Agent operating rules live in [`.agents/AGENTS.md`](.agents/AGENTS.md).  
-Current collaboration state: [`.agents/STATE.md`](.agents/STATE.md).
+## Quick start
 
-## Status
+```bash
+# Manager (always-on collab)
+.agents/manager/manager.sh start
 
-Early foundation. Security and privacy controls are documented first; implementation follows the same standards.
+# Nanobot binary
+cd products/nanobot && make host && ./build/nanobot --offline -p 'hello'
+
+# Universal web peer UI
+cd products/nanobot-app/web && python3 -m http.server 8791
+
+# Grokium core (local)
+cd products/grokium && ./scripts/grokium selftest   # when env ready
+```
+
+## Compliance
+
+Partner security/privacy obligations (debranded): [`docs/COMPLIANCE.md`](docs/COMPLIANCE.md), [`docs/PRIVACY.md`](docs/PRIVACY.md), [`docs/SECURITY.md`](docs/SECURITY.md).
 
 ## License
 
-TBD — license selection tracked in `.agents/STATE.md`.
+Per-product (Apache-2.0 Grokium · MIT nanobot · see tree). SPDX root license TBD.

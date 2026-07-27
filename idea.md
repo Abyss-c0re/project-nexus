@@ -1,31 +1,20 @@
-# Project Nexus — Vision
+# Vision — CubeOS via Project Nexus
 
-Project Nexus is a **state-of-the-art open source** system for trace analysis and secure multi-party collaboration.
+Manifest a **classy, ready-to-use Hive Mind ecosystem**: old phones, SBCs, robots, and optional VR join one mesh.
 
-## Problem
+## Core
 
-Modern AI and platform work generates high-volume traces (requests, tool calls, evaluations, incidents). Teams need:
-
-1. **Structured analysis** without leaking personal or customer data
-2. **Reproducible pipelines** that audit who touched what and why
-3. **B2B-safe defaults** (zero unnecessary retention, least privilege, clear incident paths)
-
-## Direction
-
-- Treat every pipeline as **privacy-bearing** until proven otherwise
-- Prefer **local and partner-controlled** storage over ad-hoc dumps
-- Keep the repository **narrow and professional** — product code and docs only
-- Support **human + AI agent** collaboration through a durable ops plane (`.agents/`)
+- **Grokium** — binary/command core: deploy nanobots, seal law, stream State Matrix only  
+- **Integrity layer** — protect the core; free flow of **lawful** SMX energy; zero PII  
+- **Nanobot** — portable peer OS nerve (Linux binary + universal apps)  
+- **Clanker** — first robot host (rockctl, dash, Commander) without tokens in tree or Kinect  
+- **CubeOS** — shared contracts so Linux + Android recycle into the hive  
 
 ## Non-goals
 
-- Entertainment, game, or narrative side-projects (including “cube” / fan fiction content)
-- Vendor co-branding or marketing affiliation in this tree
-- Storing secrets, credentials, or large binary dumps in git
+- Personal data collection  
+- Kinect  
+- Committed access tokens  
+- Vendor affiliation cosplay  
 
-## Success criteria
-
-- Clean public surface (README + docs + code)
-- Compliance-ready security/privacy artifacts
-- Always-on manager agent for coordination
-- Automated hygiene watcher that blocks scope drift
+Energy must flow as **bits under law** — not as dossiers.

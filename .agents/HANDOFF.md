@@ -1,35 +1,32 @@
 # Handoff
 
-**From:** bootstrap session (2026-07-27)  
-**To:** next human or agent  
+**From:** ecosystem join session (2026-07-27)  
+**To:** next hive agent  
 
 ## Completed
 
-- Cloned empty GitLab project; established remote over `[company-gitlab-host redacted]`
-- Removed mislabeled multi‑hundred‑MB media dump from workspace
-- Transcribed mandatory partner Security & Privacy training (~38 min)
-- Authored debranded public docs: SECURITY, PRIVACY, COMPLIANCE, CoC, CONTRIBUTING
-- Replaced entertainment `idea.md` with professional product vision
-- Created `.agents` ops plane (manager, watcher, bus, memory, compliance)
-- Started manager process for continuous coordination
+- Awaited Dev SFTP stability; read Cube/Hive law, Grokium, nanobot, Clanker stack  
+- Imported **grokium** (no data/secrets), **nanobot** (public GitHub), **clanker** (no tokens/Kinect/keystores)  
+- Authored Cube Law + Ecosystem architecture  
+- Scaffolded cubeos contracts, nanobot-app web UI, vr-manifest, integrity/SMX cores  
+- Manager remains the coordination process  
 
-## Not done
-
-- Product implementation / trace analysis code
-- License file
-- CI secret scanning
-- Wire real security contact addresses
-
-## Resume commands
+## Resume
 
 ```bash
-cd /path/to/ProjectNexus
-cat .agents/STATE.md .agents/HANDOFF.md
+cd /home/voldemar/project-nexus-clone   # or synced remote ProjectNexus
+cat .agents/STATE.md docs/ECOSYSTEM.md docs/cube/CUBE_LAW.md
 .agents/manager/manager.sh status
-.agents/watcher/watch_repo.sh --once
 ```
 
-## Risks
+## P0 next
 
-- SFTP-mounted workdirs can be slow; prefer local clone for heavy git ops then sync
-- Do not reintroduce game content from other workspaces
+1. Prove `products/nanobot` `make host`  
+2. Point Grokium nanobot deploy paths at monorepo products  
+3. Secret-scan CI  
+
+## Do not
+
+- Commit peer_token / device.env  
+- Add Kinect  
+- Put PII on SMX bus  

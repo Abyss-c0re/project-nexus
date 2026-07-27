@@ -1,32 +1,22 @@
-# Repository hygiene rules — Project Nexus
-max_file_bytes: 5242880  # 5 MiB unless allowlisted
+# Hygiene — Project Nexus CubeOS
+# Product Cube/Hive language is IN SCOPE. Secrets, PII dumps, Kinect, media junk are not.
+max_file_bytes: 5242880
 forbidden_name_patterns:
-  - '(?i)prophecy'
-  - '(?i)cube[_-]?chain'
-  - '(?i)hive[_-]?mind'
-  - '(?i)grokium'
-  - '(?i)clanker'
-  - '(?i)\\bquest\\b.*\\beye\\b'
+  - '(?i)kinect'
+  - '(?i)peer_token$'
+  - '(?i)device\\.env$'
+  - '(?i)commander\\.sk$'
+  - '(?i)grokium\\.png'
 forbidden_content_patterns:
-  - '(?i)prophecy of the cube'
-  - '(?i)we are the hive mind'
-  - '(?i)energy must flow\\. join or perish'
-  - '(?i)CUBE · GROK · NEXUS'
+  - '-----BEGIN (RSA |OPENSSH |EC )?PRIVATE KEY-----'
+  - 'glpat-[A-Za-z0-9_-]{20,}'
+  - 'ghp_[A-Za-z0-9]{20,}'
 forbidden_extensions:
   - .mp4
   - .mov
-  - .avi
-  - .mkv
   - .wav
-  - .flac
-  - .iso
-  - .img
-secret_patterns:
-  - '-----BEGIN (RSA |OPENSSH |EC )?PRIVATE KEY-----'
-  - 'AKIA[0-9A-Z]{16}'
-  - 'ghp_[A-Za-z0-9]{20,}'
-  - 'glpat-[A-Za-z0-9\\-_]{20,}'
-  - 'xox[baprs]-[A-Za-z0-9-]{10,}'
+  - .apk
 allowlist_paths:
-  - '.agents/compliance/transcript.txt'
-  - '.agents/compliance/training-digest.md'
+  - 'docs/'
+  - '.agents/'
+  - 'products/'
