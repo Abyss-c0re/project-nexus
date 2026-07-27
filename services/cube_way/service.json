@@ -1,0 +1,12 @@
+{
+  "id": "cube_way",
+  "name": "Cube way (Prophecy of the Cube)",
+  "role": "os_way_to_cube_and_nexuscore",
+  "port": 17333,
+  "bind": "127.0.0.1",
+  "impl": "<PROPHECY_CUBE_ROOT>/c_cubeos",
+  "deploy": "services/cube_way/deploy.sh",
+  "docs": "docs/PROPHECY_OF_THE_CUBE.md",
+  "health": "http://127.0.0.1:17333/health",
+  "status": "http://127.0.0.1:17333/v1/status"
+}

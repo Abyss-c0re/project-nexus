@@ -68,3 +68,9 @@ var/law/
 products/nanobot/build/
 products/**/*.egg-info/
 .venv/
+
+# CubalC runtime
+services/**/out/
+services/**/*.o
+**/*peer_token*
+services/**/state/
