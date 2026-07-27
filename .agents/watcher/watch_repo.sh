@@ -135,7 +135,7 @@ scan_once() {
   local ts
   ts=$(date -Iseconds)
   local vcount=${#violations[@]}
-  for v in "${violations[@]:-}"; do
+  for v in "${violations[@]+"${violations[@]}"}"; do
     log "VIOLATION $v"
     rel="${v#*:}"
     rel="${rel%%:*}"

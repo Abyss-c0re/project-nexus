@@ -80,3 +80,8 @@ High residual risk → DPIA before launch.
 Timestamped transcript retained for audit under:
 
 - `.agents/compliance/transcript.txt` (internal ops; not for marketing use)
+
+## Transcript custody
+
+Full ASR output is **not** stored in this repository (avoids third-party brand strings in the public tree).  
+Local audit copy (this machine): `~/.local/share/project-nexus/compliance/transcript-2026-07-27.txt`
