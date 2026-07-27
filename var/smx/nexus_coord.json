@@ -1,0 +1,12 @@
+{
+  "schema": "NEXUS_COORD.v1",
+  "from": "CubeOS",
+  "type": "heartbeat",
+  "share": "state_matrix_only",
+  "ts": 1785180805.0838156,
+  "smx_hex": "534d5831011f01074950f496355d955a8aa81cbefdf2380dd905d1a4a850afb136491dc44d419179000000000000000000000000000000000000000000000000",
+  "bits_set": 145,
+  "digit": 7,
+  "hold_flash": 1,
+  "pii": false
+}

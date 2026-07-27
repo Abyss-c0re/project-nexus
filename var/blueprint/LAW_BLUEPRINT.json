@@ -1,0 +1,7 @@
+{
+  "schema": "cube.law_blueprint.v1",
+  "hold_flash": 1,
+  "no_personal_data": 1,
+  "state_matrix_only": 1,
+  "integrity_fail_closed": 1
+}

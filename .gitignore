@@ -59,3 +59,12 @@ venv/
 **/*.apk
 products/**/data/
 products/**/.env
+
+# Local runtime (not sources)
+.venv/
+var/home/
+var/law/
+*.o
+products/nanobot/build/
+products/**/*.egg-info/
+.venv/

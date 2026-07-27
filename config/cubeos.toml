@@ -1,0 +1,70 @@
+# CubeOS / Project Nexus — monorepo runtime config
+# Interop: Grok auth/API/session import allowed. No affiliation claims.
+
+[privacy]
+telemetry = false
+crash_reports = false
+usage_stats = false
+codebase_upload = false
+improve_model_cloud = false
+
+[auth]
+enabled = false
+base_url = "https://cli-chat-proxy.grok.com/v1"
+model = "grok-4.5"
+
+[local]
+failover = "auto"
+base_url = "http://127.0.0.1:1212/v1"
+model = "local"
+models_file = "/home/voldemar/project-nexus-clone/products/grokium/config/models.toml"
+gguf_dir = ""
+llama_server = ""
+gguf = ""
+
+[server]
+host = "127.0.0.1"
+port = 17444
+
+[sessions]
+grok_sessions = "/home/voldemar/.grok/sessions"
+import_dir = "/home/voldemar/project-nexus-clone/var/import"
+
+[cube]
+enabled = true
+control_url = "http://127.0.0.1:17333"
+share_mode = "state_matrix_only"
+hold_flash = true
+sot = true
+os_is_way = true
+station_coord = "/home/voldemar/project-nexus-clone/var/smx/nexus_coord.json"
+
+[law]
+hold_flash = 1
+no_brain_wires = 1
+face_blur = 1
+state_matrix_key = 1
+cores_unmixed = 1
+commander_only_residual = 1
+blueprint = "/home/voldemar/project-nexus-clone/var/blueprint/LAW_BLUEPRINT.json"
+
+[nanobot]
+enabled = true
+binary = "/home/voldemar/project-nexus-clone/bin/nanobot"
+fallback_binary = "/home/voldemar/project-nexus-clone/products/nanobot/build/host/nanobot"
+base_port = 28800
+offline = true
+base_url = "http://127.0.0.1:1212/v1"
+model = "local"
+home_root = "/home/voldemar/project-nexus-clone/var/home"
+roles = [
+  { id = "nb-integrity",  purpose = "integrity_no_leak_core", shell = false },
+  { id = "nb-matrix-eval", purpose = "evaluate_sot_smx_harmony", shell = false },
+  { id = "nb-construct",   purpose = "construct_deconstruct_edge", shell = true },
+  { id = "nb-observer",    purpose = "observe_unity_watchd", shell = false },
+  { id = "nb-host",        purpose = "station_cube_liaison", shell = false },
+]
+
+[commander]
+law_dir = "/home/voldemar/project-nexus-clone/var/law"
+domain = "GROKIUM-COMMANDER-v1"

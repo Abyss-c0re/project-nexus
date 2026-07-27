@@ -1,9 +1,11 @@
 # State Matrix core
 
-Binary source of truth for hive coordination.
+64-byte binary frames. **No personal data fields.**
 
-- Frame size: 64 bytes (SMX)  
-- Fields: magic, version, purpose bits, integrity, algocube digit, payload fold  
-- **No personal data fields exist** by design  
+```python
+from smx import pack, unpack, harmony
+f = pack(digit=7, seed=b"genesis")
+print(unpack(f))
+```
 
-Implementation reference: `products/grokium/src/grokium/smx_binary.py`, `matrix.py`.
+Used by CubeOS control plane and Grokium SMX share path.
