@@ -1,0 +1,14 @@
+{
+  "name": "project-nexus-manager",
+  "role": "manager",
+  "version": "1.0.0",
+  "description": "Always-on coordinator for human and AI collaboration on Project Nexus",
+  "entrypoint": "manager.sh",
+  "responsibilities": [
+    "heartbeat",
+    "claim and acknowledge bus/incoming reports",
+    "invoke hygiene watcher scans",
+    "maintain continuity for joining agents"
+  ],
+  "depends_on": [".agents/STATE.md", ".agents/watcher/watch_repo.sh"]
+}

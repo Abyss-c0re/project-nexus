@@ -1,0 +1,415 @@
+# INTERNAL transcript — partner mandatory training (raw ASR)
+# Not a public affiliation statement. Do not quote vendor names in marketing.
+# Generated 2026-07-27 via faster-whisper (small).
+
+[0.2-3.7] Welcome to the security and privacy training.
+[3.7-6.7] Please note this course contains audio.
+[6.7-12.7] Whether you work on X, XAI, X payments, money, or all of the above,
+[12.7-15.2] the goal of this training is straightforward.
+[15.2-18.2] Privacy is more than a requirement.
+[18.2-24.7] It is essential for earning and retaining the trust of our users, partners, vendors, and employees.
+[24.7-28.7] PDP stands for Privacy and Data Protection.
+[28.7-34.2] Our Privacy and Data Protection team administers a program that ensures we comply with our obligations
+[34.2-38.2] under applicable laws, regulations, and commercial agreements,
+[38.2-42.2] and that we fulfill the commitments we have made to the public.
+[42.2-45.7] This training is designed to equip you with information and resources
+[45.7-48.7] regarding our Privacy and Data Protection program
+[48.7-52.7] so that you can help protect and maintain that trust.
+[52.7-56.7] Violations of Privacy and Data Protection regulations can be costly
+[56.7-60.7] for the company and for the people whose data we hold.
+[60.7-68.7] For example, X was fined $150 million in 2022 for failing to implement security measures agreed upon
+[68.7-73.7] under the previously signed 2011 FTC Consent Order.
+[73.7-76.7] We will cover this in greater detail later.
+[76.7-82.7] According to the 2022 Consent Order, if X were found to have misused a specific piece of data,
+[82.7-87.7] we could be fined $16,000 per customer per piece of data.
+[87.7-94.7] That means if X were to misuse 1 million emails for advertising purposes in violation of the Consent Order,
+[94.7-99.7] the potential maximum penalty would be $16 billion.
+[99.7-104.7] As another example, consider the EU General Data Protection Regulation.
+[104.7-110.7] Recently, fines have exceeded 1 billion euros for some of our industry counterparts.
+[110.7-113.7] The following definitions are essential.
+[113.7-121.7] A data subject is an individual meaning an X or X AI user, you or any of our employees.
+[121.7-129.7] Personal data is any piece of information that can be used to directly or indirectly identify an individual.
+[129.7-134.7] In other words, if it can be tied to an individual, it is personal data.
+[134.7-142.7] For example, personal data includes any information collected or inferred that is tied to, logged to,
+[142.7-152.7] logged with, or associated with a username, handle, email address, phone number, or real name, including those of employees.
+[152.7-159.7] It may also include any internal identifier that ties back to any of the aforementioned pieces of information.
+[159.7-165.7] Information that is not directly related to an individual but can be linked to an individual with high confidence,
+[165.7-171.7] such as through a device ID, IP address, browser cookie ID, precise GPS location,
+[171.7-178.7] or any additional information that is collected or inferred can also be considered personal data.
+[178.7-184.7] Publicly available data, such as an account handle or post, is still personal data. Keep that in mind.
+[184.7-191.7] Processing is any automated or manual action performed on personal data. This is a broad term.
+[191.7-197.7] Even storing personal data or retaining it in a backup without further use is considered processing.
+[197.7-205.7] A breach is unauthorized access, disclosure, destruction, alteration, loss, or breach of integrity of data.
+[205.7-210.7] Be sure to report any potential breaches you have observed in case you are the first to identify them.
+[210.7-215.7] We risk failing to identify breaches if employees assume that a breach has already been reported.
+[215.7-223.7] If you see something, say something, and notify us via go slash page dart or page dart at x.ai.
+[223.7-229.7] For general security questions, please contact us at security at x.ai.
+[229.7-235.7] If you see a potential breach, report it immediately. You may be the first to notice.
+[236.7-240.7] Privacy by design ensures that when developing products, services, and features,
+[240.7-249.7] we ask the right questions about the design, engineering, and maintenance choices we make from a privacy and data protection perspective.
+[249.7-254.7] Privacy by design is a holistic process designed to balance the product's objectives,
+[254.7-259.7] the benefits it will provide to the user, and potential risks.
+[260.7-262.7] We have six defined principles.
+[262.7-265.7] One, proactive and preventative approach.
+[265.7-272.7] We must be forward-thinking about privacy and data protection as part of the product, process, or feature design.
+[272.7-277.7] In other words, we should ask ourselves what role privacy will play in the product.
+[277.7-280.7] Two, privacy as default.
+[280.7-286.7] We should ensure that we are building privacy-protecting measures and controls into the services we develop.
+[287.7-290.7] Three, privacy embedded into design.
+[290.7-295.7] Considering privacy in a product before we begin to build it is essential to this process.
+[295.7-299.7] Four, not compromising on product functionality.
+[299.7-305.7] We recognize that embedding privacy into a product can be more challenging and time-consuming,
+[305.7-311.7] but we do not want to compromise on products or features that we want our users to value and use.
+[311.7-317.7] We build for fully intended functionality while ensuring that we meet privacy and data protection standards.
+[317.7-322.7] Five, end-to-end security and lifecycle protection.
+[322.7-329.7] All products should be secure throughout their entire lifecycle from the collection of data until we delete it.
+[329.7-333.7] Six, visibility and transparency.
+[333.7-337.7] End consumers need to understand the data we collect and what we do with it,
+[337.7-342.7] giving users the ability to understand how a product works and how we use their data,
+[342.7-348.7] empowers them to make informed decisions and to use our products confidently and safely.
+[348.7-352.7] The benefits of privacy by design include the following.
+[352.7-359.7] We can often prevent adverse outcomes by reviewing a product or concept before it is built or early in development.
+[359.7-362.7] By considering best practices at the design stage,
+[362.7-367.7] it will be simpler to implement them and remain compliant with privacy regulations.
+[367.7-371.7] By designing and implementing privacy-friendly and secure solutions,
+[371.7-376.7] we will be less likely to experience incidents or other major problems.
+[376.7-382.7] And lastly, it helps increase trust with our user base and supports product usage.
+[382.7-385.7] Privacy risk has two components.
+[385.7-390.7] First, it is any potential concern about personal data and legal obligations.
+[390.7-397.7] We have obligations to regulators, employees, users, or anyone who has shared data with us.
+[397.7-404.7] Second, it is any act that violates a privacy-related promise we have made to customers or regulators,
+[404.7-408.7] even if that promise is not itself a legal requirement.
+[408.7-413.7] Privacy risks are relevant for us because they can lead to the erosion of customer trust,
+[413.7-417.7] financial sanctions, reputational harm, and other consequences.
+[417.7-422.7] We protect our users and our company through the Privacy Risk Management Program.
+[422.7-428.7] The program helps us identify risks early by assessing compliance with privacy regulations,
+[428.7-435.7] finding current gaps in weaknesses, and spotting potential points of failure before they become real problems.
+[435.7-443.7] To report a privacy risk, please email pdp-ops-escalations at x.ai.
+[443.7-448.7] We work to make the best risk decisions and to mitigate risk where possible.
+[448.7-453.7] One critically important point, if an incident is underway such as a system breach,
+[453.7-463.7] you must report it immediately and directly to the Security Incident Management Team via go slash page dart or page dart at x.ai.
+[463.7-468.7] For general security questions, please contact security at x.ai.
+[468.7-474.7] SpaceX AI sometimes acts as a business associate for enterprise clients that handle protected health information,
+[474.7-479.7] or PHI, under Health Insurance Portability and Accountability Act, or HIPAA.
+[479.7-488.7] To protect privacy and ensure compliance, we require zero data retention for all PHI submitted to our services.
+[488.7-493.7] This means we do not store or access protected health information at any time.
+[493.7-501.9] If an enterprise client has a specific need to use PHI in a non-ZDR environment,
+[501.9-508.9] please reach out to the legal team so we can evaluate that opportunity on a case-by-case basis.
+[508.9-515.0] Please note that in such instances we are required to maintain strong safeguards which include
+[515.0-522.0] using or disclosing PHI only as permitted by each business associate agreement, or BAA.
+[522.0-531.0] Implementing appropriate security measures if PHI is ever received, reporting any security incidents or breaches to covered entities promptly
+[531.0-538.0] according to BAA timelines, flowing down HIPAA requirements to our subcontractors,
+[538.0-543.0] returning or destroying any PHI at the end of the contract.
+[543.0-549.0] This approach allows us to support our clients responsibly while minimizing risk.
+[549.0-553.0] We will now discuss the FTC Consent Order referenced earlier.
+[553.0-559.0] Regardless of the work you perform, it is important for all employees to be aware of X's FTC Consent Order.
+[559.0-563.0] During onboarding, you signed an attestation regarding a Consent Order.
+[563.0-569.0] By signing the attestation, you acknowledge the order, what it means for us, and how it applies to your role.
+[569.0-573.0] The following is a refresher as to why.
+[573.0-577.0] In 2022, X entered into a Consent Order with the Federal Trade Commission,
+[577.0-582.0] which is a U.S. government agency that enforces federal consumer protection laws.
+[582.0-589.0] X entered the order after we allegedly misused contact information originally collected for user authentication
+[589.0-595.0] and other security purposes to serve targeted ads without making this use explicitly clear to our users.
+[595.0-601.0] We have since paid a $150 million fine to settle these allegations.
+[601.0-606.0] The following are highlighted requirements of the FTC Consent Order.
+[606.0-611.0] The order requires us to do a number of things. The items below are emphasized here.
+[611.0-617.0] We must prevent misrepresentations to the public about X's privacy and security practices.
+[617.0-621.0] In other words, we must abide by what we tell our users.
+[621.0-626.0] X must review any new or modified products or services that use data covered in the order
+[626.0-631.0] to identify and remediate any material risks, which X does through the flyway
+[631.0-635.0] the process that includes our privacy review procedures.
+[635.0-640.0] We must maintain and retain specific records from various lines of business for five years.
+[640.0-645.0] And lastly, we must provide mandatory regular training to employees and contractors
+[645.0-653.0] relating to the FTC Consent Order and its requirements, which is what you are completing now.
+[653.0-658.0] As noted earlier, all external statements about our privacy and security practices
+[658.0-664.0] that will be widely disseminated or made public must be reviewed to prevent misrepresentations.
+[664.0-668.0] If you are releasing a publication or planning a speaking engagement,
+[668.0-675.0] file a ticket at go slash publication slash review or reach out to us on Slack.
+[675.0-679.0] As an employee, you are a representative of our company
+[679.0-684.0] and your posts are included as public statements, meaning we must also review
+[684.0-690.0] any posts relating to our privacy and security safeguards.
+[690.0-695.0] If you would like to learn about the many other requirements outlined in the FTC Consent Order
+[695.0-701.0] and how they apply to your role, please visit go slash FTC.
+[701.0-706.0] A privacy review is a comprehensive examination of the processing of personal data
+[706.0-712.0] and covered information for a particular purpose, project or product.
+[712.0-717.0] For each project, we ensure that what we are planning to do meets our obligations
+[717.0-720.0] with respect to personal data.
+[720.0-723.0] There are several questions we ask ourselves.
+[723.0-727.0] Is the data processed in a lawful, fair and transparent way?
+[727.0-732.0] Is it collected for a specific and legitimate purpose and only for that purpose?
+[732.0-734.0] Are we only collecting what we need?
+[734.0-737.0] How do we ensure the accuracy of the data?
+[737.0-741.0] How do we ensure that the data is not being kept for longer than necessary?
+[741.0-747.0] Will the data be processed in a way that protects its integrity and confidentiality?
+[747.0-749.0] Depending on the answers to these questions,
+[749.0-752.0] we may need to complete a more comprehensive risk assessment
+[752.0-756.0] known as a data protection impact assessment.
+[756.0-762.0] Note that the privacy review is a distinct process from the publication legal review.
+[762.0-766.0] You may need to complete both reviews depending on your project.
+[766.0-771.0] For example, if the project you are working on includes a statement announcing a new product,
+[771.0-775.0] the product itself will require a privacy review prior to launch,
+[775.0-781.0] and the announcement about the new product will require a legal publication review ticket.
+[781.0-788.0] We have a process for developing new or improved products and services for internal or external customers.
+[788.0-793.0] This process is designed to meet our baseline compliance with U.S. and international laws,
+[793.0-800.0] such as the General Data Protection Regulation, the EU AI Act, and the Digital Services Act.
+[800.0-803.0] Regulators around the world are actively monitoring our product launches
+[803.0-808.0] to ensure that appropriate legal and security reviews are taking place.
+[808.0-815.0] A data protection impact assessment is an in-depth examination of a project or process that involves personal data.
+[815.0-821.0] We use privacy reviews to determine whether a project will require a data protection impact assessment.
+[821.0-825.0] Ultimately, privacy reviews act as a risk funnel.
+[825.0-832.0] They review the large number of projects under development and identify those that require a data protection impact assessment.
+[832.0-841.0] A data protection impact assessment is often required if a project is likely to entail a high risk to the rights and freedoms of natural persons.
+[841.0-848.0] In this context, natural persons are people whose data is used or processed for a project or activity.
+[848.0-855.0] A natural person could be you, an ex or XAI user, a partner, an employee, or others.
+[855.0-861.0] The best way to think about a data protection impact assessment in this framework is to understand what we are seeking to do
+[861.0-866.0] and ensure it does not create unacceptable risks to data subjects.
+[866.0-871.0] When determining whether we need a data protection impact assessment, we look at the types of data being used,
+[871.0-878.0] how we are using the data, the potential sensitivity of that data, and the overarching impacts on data subjects.
+[878.0-884.0] Where material risks are foreseen, a data protection impact assessment is often required.
+[884.0-890.0] When a data protection impact assessment is completed, it is intended to identify potential risks,
+[890.0-899.0] a plan to remediate those risks, and the team or teams responsible for implementing the relevant remediations.
+[899.0-907.0] In summary, data protection impact assessments are used to incorporate data protection considerations into project planning
+[907.0-913.0] and to help demonstrate our compliance with applicable laws to supervisory authorities.
+[913.0-918.0] As a final note, if your project requires a data protection impact assessment,
+[918.0-924.0] the project should not be launched until the data protection impact assessment is finalized.
+[924.0-930.0] If you are using personal data for a project, use go slash counsel review to file a ticket,
+[930.0-934.0] or reach out to the product counsel team for product legal support.
+[934.0-939.0] If you are sharing or receiving data from a third party, such as a supplier or vendor,
+[939.0-944.0] visit go slash buy, which will direct you to the spend approval process.
+[944.0-951.0] This also applies to mergers and acquisitions. Privacy or security teams must be consulted beforehand.
+[951.0-955.0] Now we are moving on to the security portion of this training.
+[955.0-963.0] In this section, we will review the key security practices and controls we have in place to protect the company and our data.
+[963.0-970.0] We take deliberate steps to help ensure that you and our users stay safe, beginning with background checks.
+[970.0-977.0] We have implemented background checks for our employees to mitigate potential risks of unauthorized public disclosure.
+[977.0-986.0] All employees undergo pre-employment background checks to preserve the integrity of our services and the safety of our users and employees.
+[986.0-992.0] In some instances, such as new roles, employees may undergo a renewed background check.
+[992.0-1003.0] Prior education and employment history is verified in addition to criminal checks, sanctions checks, a review of media and social media content, and other relevant checks.
+[1003.0-1014.0] Please be cognizant of what our adversaries can find about you online and be mindful of what you portray online as an employee of X or XAI.
+[1014.0-1018.0] Our company is a valuable target for a range of real-world threats.
+[1018.0-1026.0] Threat actors may include online criminal groups, hacktivists, nation-states, internal actors, and the Internet.
+[1026.0-1043.0] Their objective is to obtain and misuse user data, personally identifiable information, PII, financial data, and intellectual property with the goal of causing harm to business operations, credibility, company stock value, or reputation.
+[1044.0-1051.0] There are several threat vectors that these actors use to compromise our systems and steal our data.
+[1051.0-1067.0] These include social engineering, also known as human hacking, the tactic of manipulating, influencing, or deceiving a victim in order to gain control over a computer system or to steal personal and or financial information.
+[1067.0-1071.0] A common social engineering tactic is the phishing attack.
+[1071.0-1083.0] Phishing is used to impersonate trusted entities via emails or messages to obtain sensitive information, often utilizing malicious code contained within a link.
+[1083.0-1088.0] Sometimes this takes the form of a business email compromise, BEC.
+[1088.0-1098.0] A BEC occurs when a bad actor hijacks a legitimate company email account and sends fraudulent information, sometimes malware, from that email account.
+[1098.0-1103.0] Threat actors may also employ domain squatting in conjunction with a phishing attack.
+[1103.0-1109.0] Attackers use a deceptive domain that looks legitimate in order to trick the victim into clicking a phishing link.
+[1109.0-1120.0] Another tactic is synthetic identity fraud, the creation of fake identities using a mix of real and fabricated information that undermines security measures.
+[1120.0-1125.0] Outside of social engineering, there are other traditional forms of cyber attacks.
+[1125.0-1136.0] One example is a distributed denial of service attack, which attempts to disrupt normal traffic to a web property in order to overload services and prevent legitimate users from gaining access.
+[1136.0-1144.0] Ransomware attacks and other forms of malware are used to extract information and money by extorting individuals and organizations.
+[1144.0-1155.0] A growing threat vector is AI generated ransomware, phishing and social engineering attacks that utilize AI to create deep fakes or to improve and expand threat actor tactics.
+[1155.0-1163.0] The dark web hosts numerous illicit marketplaces where AI tools can be purchased for nefarious purposes.
+[1163.0-1169.0] Despite these challenges, the most effective defenses remain the simplest ones.
+[1169.0-1182.0] Use strong passwords, use multi-factor authentication, install updates regularly, avoid falling for traps, and think before you click on suspicious links.
+[1182.0-1197.0] Social engineering or human hacking is a deceptive tactic used by attackers to manipulate individuals into divulging confidential information granting unauthorized access or performing actions that compromise security.
+[1198.0-1204.0] It exploits human trust, curiosity, fear, or greed rather than technical vulnerabilities.
+[1204.0-1218.5] Warning signs to look for include LinkedIn messages from unknown parties, scenarios that are too good to be true, interactions that are online only.
+[1218.5-1225.5] The most common social engineering tactic is phishing, which is the cause of over 90% of data breaches.
+[1225.5-1228.5] The following are eight ways to spot a phishing attack.
+[1228.5-1234.5] One, check whether the sender's email address matches the sender's listed organization.
+[1234.5-1238.5] Two, does the message convey a sense of urgency?
+[1238.5-1244.5] Three, does the message contain generic salutations such as hello or dear customer?
+[1244.5-1247.5] Four, are there typos in poor grammar?
+[1247.5-1252.5] With AI, this may be less frequent, but bad actors can still make mistakes.
+[1252.5-1255.5] Five, are there unexpected attachments?
+[1255.5-1258.5] If you are not expecting an attachment, do not open it.
+[1258.5-1263.5] Six, does the message contain requests for a password or account verification?
+[1263.5-1267.5] This may lead you to a login page that appears legitimate but is not.
+[1267.5-1271.5] Seven, are URLs shortened or misspelled?
+[1271.5-1273.5] They may be a malicious link.
+[1273.5-1275.5] Avoid clicking on these unless you are certain.
+[1275.5-1280.5] A better option may be to perform your own internet search for this information.
+[1281.5-1286.5] Eight, does the message lack a signature line or contact information?
+[1286.5-1291.5] Forward suspicious emails and contacts to phishing at x.ai.
+[1291.5-1296.5] If in doubt, GoFishy is a resource available to you.
+[1296.5-1303.5] This is an example of a real world domain squatting or spoofing technique coupled with a phishing attack.
+[1303.5-1309.5] The email appears to be coming from a legitimate entity at xai or x with an attached link.
+[1309.5-1316.5] Notice how the threat actor creates a sense of urgency by alluding to an account suspension if the victim does not click the link.
+[1316.5-1321.5] This is a deliberate attempt to deceive and likely defraud the victim.
+[1321.5-1323.5] Look at domains carefully.
+[1323.5-1328.5] Attackers often try to mimic real domains or real sounding domains.
+[1328.5-1339.5] If the real domain is xsafety.com, an attacker might use xsafety.com and go so far as to actually register that fake domain.
+[1339.5-1348.5] No one at xai or x will ever ask you to move support communications to third-party applications such as WhatsApp or Telegram.
+[1348.5-1351.5] We also ask that you be aware of insider threats.
+[1351.5-1362.5] An insider threat can be intentionally malicious or the result of willful neglect in the planning or execution of data loss, workplace violence, theft of proprietary information,
+[1362.5-1372.5] or many other attacks that could harm x or xai users, staff or xai business practices.
+[1372.5-1383.5] Be aware that the company reviews activity on x and xai resources and in offices to protect the business, its confidential information, and to ensure policy compliance.
+[1383.5-1390.5] All x and xai employees acknowledge the security and privacy policy when onboarding.
+[1390.5-1394.5] This policy outlines the guidelines for safeguarding company and user data.
+[1394.5-1407.5] We strongly encourage reporting concerning behaviors and unauthorized solicitations for internal information, whether from an inquisitive journalist, a disgruntled individual, or coworkers showing interest in work outside their scope.
+[1407.5-1411.5] These are examples and are not all-inclusive.
+[1411.5-1414.5] You are the eyes and ears of our workforce.
+[1414.5-1418.5] Report anything you believe is a security concern.
+[1418.5-1427.5] Should you encounter anything you think is concerning, contact Insider Threat at x.ai or go to the Insider Threat Ticket Channel.
+[1427.5-1436.5] You also have the option to report a concern anonymously to our compliance and investigations team at go slash speak up.
+[1436.5-1440.5] To ensure we are protecting our users, we need everyone to think like an owner.
+[1440.5-1451.5] If you find a security problem with any aspect of the company's security, including privacy and data protection, applications, data center operations, or the corporate network, report it immediately.
+[1451.5-1462.5] Contact the detection and response team to report a compromise, vulnerability, breach of our data, security threats, rumors, or non-compliance with security policy and standards.
+[1462.5-1471.5] For urgent issues such as a possible data breach or compromise, message the hashtag security help channel on Slack or file a ticket.
+[1471.5-1475.5] More information can be found on go slash security.
+[1475.5-1478.5] We have discussed user privacy extensively.
+[1478.5-1483.5] We also have your privacy and security in mind as an employee or contractor.
+[1483.5-1486.5] As an employee, we are all guardians of the company's data.
+[1486.5-1497.5] To help us understand our obligation to control x and xai's data, systems, and services, employees must acknowledge and abide by the company's employee security and privacy policy.
+[1497.5-1503.5] This document was created with the help of Infosec, Corpsec, and others to ensure it aligns with business needs.
+[1503.5-1518.5] Violations of the x security and privacy policy and incorporated policies will be investigated and may result in adverse employment actions, including removal of access to our systems, potential disciplinary action up to and including termination, and possible legal action.
+[1518.5-1523.5] This section addresses keeping every device safe and secure.
+[1523.5-1526.5] The core takeaway is, install smart.
+[1526.5-1529.5] We have clear rules so you do not have to guess.
+[1529.5-1531.5] Required practices include the following.
+[1531.5-1538.5] Only install software that is already on the approved application list or pull it directly from our internal software inventory tool.
+[1538.5-1542.5] That is your single source of truth for vetted software.
+[1542.5-1547.5] If something is not on the list and you need it, obtain explicit security approval first.
+[1547.5-1549.5] No exceptions.
+[1549.5-1555.5] Whenever possible, use our internal xai and x tools such as xchat and others.
+[1555.5-1560.5] They are already pre-approved and built to work safely inside our environment.
+[1560.5-1564.5] If you are ever unsure, ask in the security help channel on Slack.
+[1564.5-1568.5] We would much rather answer a quick question than remediate a problem later.
+[1568.5-1571.5] These are a few practices that create risk.
+[1571.5-1575.5] Do not download unapproved apps or third party browsers.
+[1575.5-1581.5] These are among the fastest ways malware or unwanted tracking gets onto our machines.
+[1581.5-1587.5] Never install unlicensed or unauthorized content on xai or x resources.
+[1587.5-1590.5] It creates both security and legal exposure.
+[1590.5-1595.5] Avoid software that originates from embargoed countries, examples,
+[1595.5-1598.5] WeChat, ByteDance, Telegram and similar tools.
+[1598.5-1603.5] These carry extra compliance and security considerations.
+[1603.5-1608.5] Never store confidential xai or x data in unapproved cloud services.
+[1608.5-1613.5] We have approved platforms for a reason they protect sensitive information.
+[1613.5-1616.5] Security isn't about slowing you down.
+[1616.5-1619.5] It's about protecting the work we are all doing.
+[1619.5-1623.5] These rules keep our devices, our data and our mission safe.
+[1623.5-1629.5] Xai is supportive of employees using gen ai tools on your work device.
+[1629.5-1632.5] We know these tools can be really helpful.
+[1632.5-1637.5] That said, you all play a big role in keeping things secure
+[1637.5-1640.5] and protecting the company's data when you use them.
+[1640.5-1643.5] Here are the main things you should not do.
+[1643.5-1647.5] Don't use these tools to impersonate, bully or harass anyone.
+[1647.5-1652.5] Don't generate explicit or offensive content while you are on your work device.
+[1652.5-1657.5] Don't paste internal xai data into external gen ai tools.
+[1657.5-1662.5] Even if you're using tools that are generally approved, the rule is still the same.
+[1662.5-1666.5] Avoid putting company data into external LLMs.
+[1666.5-1670.5] If there's a legitimate reason you need to do it for work,
+[1670.5-1672.5] just file a security exception first.
+[1672.5-1675.5] It's quick and it keeps everyone protected.
+[1675.5-1681.5] For engineers, please ensure you are using Xai's enterprise license of cursor.
+[1681.5-1685.5] Other closed source ai powered IDEs are not allowed.
+[1685.5-1689.5] This is an important policy for anyone who writes or manages code.
+[1689.5-1694.5] All company related code must be created and maintained exclusively
+[1694.5-1697.5] within the company's official GitHub organizations.
+[1697.5-1701.5] This includes all code, projects and repositories.
+[1701.5-1706.5] They should not be stored in personal repositories or other organizations.
+[1706.5-1710.5] To support this requirement, please follow these rules.
+[1710.5-1715.5] You must be connected to the VPN whenever you access GitHub for work.
+[1715.5-1721.5] Use your Xai email as the primary email address on your GitHub account.
+[1721.5-1727.5] If your Xai email is not set as primary, use single sign-on SSO instead.
+[1727.5-1733.5] This policy ensures proper access control, protects Xai's intellectual property,
+[1733.5-1739.5] supports security compliance, and allows for better auditability of all company code and data.
+[1739.5-1746.0] The Travel Security Program, TSP, is the company's program for keeping you safe
+[1746.0-1751.0] and protecting our sensitive information whenever anyone travels internationally.
+[1751.0-1756.0] Whether it is a personal trip or a business meeting, the program is designed to support you.
+[1756.0-1761.0] The main objectives are to safeguard company assets, keep employees safe,
+[1761.0-1767.0] handle geopolitical risk, and remain compliant with all legal and data protection rules.
+[1767.0-1772.0] Report all international travel, personal or business, outside your home country.
+[1772.0-1777.0] This applies to all full-time employees regardless of your location or position.
+[1777.0-1782.0] External contractors hired by third-party companies will follow guidance to report high-risk travel.
+[1782.0-1785.0] Submit the Travel Security Notification Form before you go.
+[1785.0-1789.0] You can find the form on the Notion page at go-slash-secure-travel
+[1789.0-1792.0] or by visiting the Travel Security Program channel on Slack.
+[1792.0-1797.0] High-risk countries come with extra rules, no company devices, access limits, and briefings.
+[1797.0-1801.0] You can find country risk ratings on Slack or the Notion page.
+[1801.0-1805.0] The earlier you notify us, the smoother the process for you and the team.
+[1805.0-1810.0] Please reach out on Slack or via email at travelatx.ai.
+[1810.0-1815.0] Let's review the five steps to follow as a part of the Travel Security Program.
+[1815.0-1820.0] 1. Report all international travel, whether it is a vacation or a work trip.
+[1820.0-1823.0] 2. Quickly check the country's risk level.
+[1823.0-1828.0] High-risk countries come with extra steps, so it is important to know up front.
+[1828.0-1832.0] 3. If you are planning to work while abroad on personal time,
+[1832.0-1836.0] submit a Global HR Mobility Work Program ticket first.
+[1836.0-1840.0] 4. Fill out the Travel Security Notification Form.
+[1840.0-1843.0] It takes approximately two minutes.
+[1843.0-1847.0] Provide your dates, destinations, and purpose so we can align support for you.
+[1847.0-1850.0] Please include whether or not you need company equipment
+[1850.0-1853.0] for the international travel program notification.
+[1853.0-1857.0] If anything comes up before, during, or after the trip,
+[1857.0-1860.0] contact Slack, Travel Security Program channel,
+[1860.0-1864.0] email travelatx.ai for routine matters,
+[1864.0-1870.0] or corpsecatx.ai if it is during travel and feels urgent.
+[1870.0-1874.0] Once you report, we handle the remaining process behind the scenes.
+[1874.0-1877.0] High-risk travel falls into two categories,
+[1877.0-1880.0] personal travel and approved business travel.
+[1880.0-1884.0] If you are traveling for personal reasons to a high-risk location,
+[1884.0-1888.0] we ask you to leave all company devices at home or in the office.
+[1888.0-1893.0] We will temporarily suspend your full system and VPN access while you are away.
+[1893.0-1895.0] Access is restored when you return.
+[1895.0-1899.0] Please delete any work apps and remove your work accounts from personal devices
+[1899.0-1900.0] before you travel.
+[1900.0-1905.0] You will also complete a quick pre-travel briefing and post-trip debrief with corpsec.
+[1905.0-1909.0] When travel is required for business and has been approved,
+[1909.0-1911.0] we still maintain strict controls.
+[1911.0-1916.0] We will assess the work scope to decide what level of access you actually need.
+[1916.0-1919.0] Company devices are generally not allowed.
+[1919.0-1925.0] Instead, you can request a limited access loaner device for essential tools such as Gmail and Slack.
+[1925.0-1929.0] We also have targeted exemptions for certain sales routes.
+[1929.0-1935.0] As with personal travel, you will complete a pre-travel briefing and a post-trip debrief.
+[1935.0-1940.0] The following section discusses X and XAI's Workplace Violence Prevention Program,
+[1940.0-1944.0] including the company's policy focus, prevention measures,
+[1944.0-1948.4] and how to report instances of workplace violence.
+[1948.4-1954.4] The bottom line stated up front is that XAI will not tolerate threats, acts of violence,
+[1954.4-1958.4] or any other conduct that generates a reasonable concern for safety.
+[1958.4-1961.4] This rule applies to everyone.
+[1961.4-1966.4] Employees who make threats or otherwise violate this policy may be disciplined,
+[1966.4-1970.4] including the possibility of immediate termination of employment.
+[1970.4-1976.4] XAI will make the sole determination of whether and to what extent threats or acts violate this policy
+[1976.4-1980.4] based on a reasonable case-by-case analysis.
+[1980.4-1985.4] Workplace violence is any act or threat of violence that occurs at the workplace.
+[1985.4-1990.4] It does not include lawful acts of self-defense or the defense of others.
+[1990.4-1996.4] Understanding different types of workplace violence can help our team address concerns more effectively.
+[1996.4-2001.4] Type 1, violence committed by individuals who have no legitimate business at the work site.
+[2001.4-2004.4] Example, robbery.
+[2004.4-2009.4] Type 2, customer or visitor violence where violence is directed at employees
+[2009.4-2012.4] by a person who has legitimate business at the work site.
+[2012.4-2016.4] Example, customers, clients, or visitors.
+[2016.4-2022.4] Type 3, peer violence where violence is committed against an employee by a present
+[2022.4-2026.4] or former employee, contractor, vendor, intern, etc.
+[2026.4-2031.4] Type 4, partner violence committed in the workplace by a person who does not work there
+[2031.4-2036.4] but has or is known to have had a personal relationship with an employee.
+[2036.4-2040.4] Example, spouse or intimate partner.
+[2040.4-2044.4] The Workplace Violence Prevention Program is supported by a multidisciplinary team
+[2044.4-2049.4] composed of corporate security, insider threat, human resources, and legal.
+[2049.4-2055.4] CORPSEC is responsible for keeping X and XAI's employees and facilities safe and secure.
+[2055.4-2060.4] This includes providing robust investigative capabilities and driving threat assessments.
+[2060.4-2066.4] Insider threat is responsible for protecting and defending the company's information and infrastructure from threats.
+[2066.4-2072.4] HR manages the people-related aspects of our business and legal is responsible for empowering
+[2072.4-2076.4] and defending our company, employees, and users.
+[2076.4-2082.4] XAI's Workplace Violence Prevention Program's primary objective is to protect our employees
+[2082.4-2087.4] and to resolve any issues before they become a physical security risk.
+[2087.4-2091.4] Proactive reporting is critical to the program's success
+[2091.4-2096.4] and will lead to an investigation and proper mitigation on a case-by-case basis.
+[2096.4-2103.4] Other program goals include increasing program awareness, reporting, and compliance with local laws.
+[2103.4-2106.4] The earlier you tell us, the smoother everything goes.
+[2106.4-2113.4] Please reach out on Slack or via email at corpsecatx.ai.
+[2113.4-2120.4] A majority of attackers demonstrate observable and reportable warning behaviors prior to engaging in violence.
+[2120.4-2125.4] Understanding and reporting concerning behaviors can help prevent an incident.
+[2125.4-2131.4] Individuals who engage in acts of targeted violence do not make a snap decision to conduct an attack.
+[2131.4-2139.4] They progress along what is commonly referred to as the pathway to violence, starting with a real or perceived grievance.
+[2139.4-2147.4] This grievance evolves into violent ideation, which then progresses through planning, preparation, and ultimately the attack itself.
+[2147.4-2155.4] Most attackers take more than a day for planning and preparation, and for many individuals this unfolds over several weeks or months.
+[2155.4-2161.4] Importantly, as individuals progress along this pathway, observable warning behaviors will often occur,
+[2161.4-2165.4] leading to an opportunity for intervention and prevention.
+[2165.4-2176.4] Warning signs include grievance development, communicated threats, concerning communications, proximal warning behaviors.
+[2176.4-2187.4] Concerning behaviors can be singular or a combination of verbal and physical behaviors, including but not limited to progression along the pathway to violence,
+[2187.4-2197.4] history of violent or aggressive comments or outbursts, communicated threats toward XAI, X, or fellow employees,
+[2197.4-2205.4] threats from a family member or intimate partner, stalking or obsessive unwanted romantic pursuit.
+[2205.4-2214.4] Go slash corpsec report is available 24-7 and allows you to submit attachments and provide a detailed description of your concern.
+[2214.4-2221.4] An anonymous report function is also available. Note that reporting anonymously can impact corpsec's ability to follow up.
+[2221.4-2227.4] If an emergency situation physically endangers you or others, immediately contact 911.
+[2227.4-2236.4] As soon as it is safe to do so, please inform corpsec by reporting directly in person or by email at corpsec at x.ai.
+[2236.4-2243.4] Please note that employees are always free to contact law enforcement where they reside or at work to report concerns.
+[2243.4-2249.4] The following security links are provided to help you and the company stay secure.
+[2249.4-2255.4] That concludes our Privacy and Data Protection and Information Security 101 training.
+[2255.4-2261.4] To close, remember that we all share the responsibility to protect and maintain people's trust.
+[2261.4-2267.4] Please use the knowledge and resources from this training in your daily work and reach out should you have any questions.
+[2267.4-2269.4] Thank you for your attention.

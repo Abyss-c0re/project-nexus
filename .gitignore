@@ -1,0 +1,50 @@
+# Secrets & local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.p12
+*.pfx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# Build / deps
+node_modules/
+dist/
+build/
+.target/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large media (keep repo professional)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.flac
+*.iso
+*.img
+*.dmg
+
+# Agent runtime (pid, live logs stay local; committed structure only)
+.agents/manager/manager.pid
+.agents/manager/heartbeat.json
+.agents/logs/*.log
+.agents/watcher/last_scan.json
+
+# Quarantine holding area (contents not committed)
+.agents/quarantine/*
+!.agents/quarantine/.gitkeep
