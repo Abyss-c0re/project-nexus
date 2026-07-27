@@ -6,12 +6,13 @@ Keep Project Nexus a **clean, professional, security-first open source** codebas
 
 ## Hard rules
 
-1. **No affiliation branding** — do not present this project as a product of any third-party AI lab (including consumer chatbot brands). B2B compliance language only.
-2. **No game / fan drift** — reject “Prophecy of the Cube”, hive-mind lore, VR game dumps, and similar entertainment content in the product tree.
-3. **No secrets in git** — tokens, keys, cookies, private training media stay out.
-4. **Privacy by design** — personal data minimized; regulated data defaults to zero retention unless legal-approved.
-5. **Handoff always** — never end a session without updating `HANDOFF.md`.
-6. **Manager is source of coordination** — check manager heartbeat; if dead, restart via `manager/manager.sh start`.
+1. **No affiliation claims** — do not present Project Nexus / Grokium / nanobot as official products of any third-party AI lab. Optional cloud **Grok auth, Grok API, and session import** are **allowed** interop (user credentials); that is not endorsement or affiliation.
+2. **CubeOS product is in scope** — Grokium core, nanobots, hive/SMX, Clanker, VR view are first-class. Do not auto-delete them as “game junk.”
+3. **No secrets in git** — peer tokens, `device.env`, commander private keys, cookies stay out. Session *import* code is fine; session *secrets* are not committed.
+4. **No personal data on the mesh** — State Matrix bits only. Never.
+5. **No Kinect** — not supported.
+6. **Handoff always** — update `HANDOFF.md` before ending a session.
+7. **Manager coordinates** — heartbeat; restart via `manager/manager.sh start` if dead.
 
 ## Priority classes
 

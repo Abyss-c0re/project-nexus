@@ -38,9 +38,11 @@ No maintainer will ask you to move support conversations to untrusted third-part
 
 ## Generative AI tools
 
-- Do not paste customer data, credentials, or non-public project secrets into external models without an approved exception
+- **Grok auth, Grok API, and local session import are allowed** as operator-controlled interop. They do **not** make this project an official third-party product.
+- Do not paste customer personal data or unapproved secrets into external models without a documented exception
 - Do not use AI tools to harass, impersonate, or generate prohibited content on work systems
 - Project code for partner-facing work must remain in official Project Nexus repositories
+- Mesh/share path remains **State Matrix only** — no session prose off-box
 
 ## Devices & software
 

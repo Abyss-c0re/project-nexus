@@ -54,7 +54,14 @@ Harmonic stack that **recycles old devices** into a nanobot-powered OS mesh: **L
 - **Access tokens / peer_token / device.env secrets** — never in git  
 - **Kinect** — not supported  
 - **Personal data** on any mesh bus  
-- **Affiliation claims** with third-party AI vendors  
+- **Affiliation claims** (“official product of &lt;lab&gt;”) — forbidden  
+
+## Explicitly allowed (interop)
+
+- **Grok auth** (user-owned account / device code)  
+- **Grok API** when the operator supplies credentials  
+- **Session import** from local catalogs (`import-sessions` / pickup) into Grokium  
+- Local llama.cpp default remains the offline path  
 
 ## Build order (host)
 

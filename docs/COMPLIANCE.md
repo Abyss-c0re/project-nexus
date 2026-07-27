@@ -3,6 +3,8 @@
 Project Nexus is developed and operated as a **professional open source project** suitable for B2B engagements. Maintainers, contractors, and automated agents must comply with these requirements when work touches partner environments, customer data, or contractual obligations.
 
 > This document captures **operational obligations** derived from mandatory security and privacy training for partner work. It does **not** create product affiliation, co-branding, or endorsement with any third-party AI vendor.
+>
+> **Interop allowed:** operators may use Grok authentication, Grok APIs, and session import tooling with **their own** credentials. That is interoperability, not affiliation.
 
 ## Program posture
 

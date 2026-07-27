@@ -2,7 +2,9 @@
 
 **Open-source hive OS mesh** for recycling devices into a nanobot-powered network: **Grokium core**, **nanobot** peers, **universal apps** (Web + Android), **Clanker** robot stack, optional **VR** view.
 
-Independent project. **Not affiliated** with third-party AI labs or consumer chatbot brands.
+Independent project. **Not affiliated** with third-party AI labs.
+
+**Allowed interop:** Grok auth, Grok API, and session import (your credentials). **Forbidden:** claiming this software is an official lab product.
 
 ## The Key
 

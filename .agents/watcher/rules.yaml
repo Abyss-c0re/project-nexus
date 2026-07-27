@@ -1,22 +1,20 @@
 # Hygiene — Project Nexus CubeOS
-# Product Cube/Hive language is IN SCOPE. Secrets, PII dumps, Kinect, media junk are not.
+# IN SCOPE: grokium, nanobot, cube, hive, SMX, optional Grok auth/API/session import
+# OUT: personal data dumps, committed secrets, Kinect, multi‑MB media junk
+# Affiliation claims ("official xAI product") are a docs/review issue, not auto-delete.
 max_file_bytes: 5242880
 forbidden_name_patterns:
-  - '(?i)kinect'
-  - '(?i)peer_token$'
+  - '(?i)^peer_token$'
   - '(?i)device\\.env$'
   - '(?i)commander\\.sk$'
-  - '(?i)grokium\\.png'
-forbidden_content_patterns:
-  - '-----BEGIN (RSA |OPENSSH |EC )?PRIVATE KEY-----'
-  - 'glpat-[A-Za-z0-9_-]{20,}'
-  - 'ghp_[A-Za-z0-9]{20,}'
+  - '(?i)kinect'
+  - '(?i)grokium\\.png$'
 forbidden_extensions:
   - .mp4
   - .mov
   - .wav
   - .apk
-allowlist_paths:
-  - 'docs/'
-  - '.agents/'
-  - 'products/'
+secret_patterns:
+  - '-----BEGIN (RSA |OPENSSH |EC )?PRIVATE KEY-----'
+  - 'glpat-[A-Za-z0-9_-]{20,}'
+  - 'ghp_[A-Za-z0-9]{20,}'

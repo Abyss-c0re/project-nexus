@@ -13,7 +13,7 @@ Binding product law for the Hive Mind ecosystem. **Attitude without theater. Sta
 7. **One Commander (product seal)** — models cannot forge command; crypto may.  
 8. **Danger still confirms** — wipe, wrong serial, force-push require human gate.  
 9. **Devices stay free** — recycle old hardware into CubeOS; user is sovereign per device.  
-10. **No vendor theater** — Grokium / nanobot are independent OSS; not affiliated with third-party AI labs.
+10. **No affiliation theater — optional Grok auth/API/session import is interop only; never claim official lab product status.
 
 ## State Matrix (SMX)
 

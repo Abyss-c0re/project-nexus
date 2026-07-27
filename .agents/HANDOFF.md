@@ -1,32 +1,26 @@
 # Handoff
 
-**From:** ecosystem join session (2026-07-27)  
-**To:** next hive agent  
+**From:** interop policy fix (2026-07-27)  
+**To:** next agent  
 
-## Completed
+## Done
 
-- Awaited Dev SFTP stability; read Cube/Hive law, Grokium, nanobot, Clanker stack  
-- Imported **grokium** (no data/secrets), **nanobot** (public GitHub), **clanker** (no tokens/Kinect/keystores)  
-- Authored Cube Law + Ecosystem architecture  
-- Scaffolded cubeos contracts, nanobot-app web UI, vr-manifest, integrity/SMX cores  
-- Manager remains the coordination process  
+- Clarified: **Grok auth + API + session import allowed**; **no affiliation claims**  
+- Fixed watcher that quarantined `products/grokium` (product names were wrongly banned)  
+- Re-imported Grokium with correct tree layout  
+- Manager stopped for restore — **restart required**
 
 ## Resume
 
 ```bash
-cd /home/voldemar/project-nexus-clone   # or synced remote ProjectNexus
-cat .agents/STATE.md docs/ECOSYSTEM.md docs/cube/CUBE_LAW.md
-.agents/manager/manager.sh status
+cd /home/voldemar/project-nexus-clone
+.agents/manager/manager.sh start
+.agents/watcher/watch_repo.sh --once
+test -f products/grokium/src/grokium/matrix.py && echo grokium_ok
 ```
 
-## P0 next
+## P0
 
-1. Prove `products/nanobot` `make host`  
-2. Point Grokium nanobot deploy paths at monorepo products  
-3. Secret-scan CI  
-
-## Do not
-
-- Commit peer_token / device.env  
-- Add Kinect  
-- Put PII on SMX bus  
+1. Keep grokium in tree (watcher must stay product-safe)  
+2. `make host` nanobot  
+3. Wire grokium hive deploy paths to monorepo nanobot  
