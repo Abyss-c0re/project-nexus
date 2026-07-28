@@ -1,12 +1,13 @@
 # Products
 
-See [docs/ECOSYSTEM.md](../docs/ECOSYSTEM.md) and [docs/cube/CUBE_LAW.md](../docs/cube/CUBE_LAW.md).
+Pins only — see [PRODUCT_SOURCES.md](PRODUCT_SOURCES.md) and [MANIFEST.toml](MANIFEST.toml).
 
-| Product | Description |
-|---------|-------------|
-| grokium | Core harness + integrity + nanobot overseer |
-| nanobot | Portable C binary peer |
-| nanobot-app | Universal Web + Android clients |
-| clanker | Robot control stack (no tokens / no Kinect) |
-| cubeos | Shared OS mesh contracts |
-| vr-manifest | Optional VR interaction |
+| Dir | Meaning |
+|-----|---------|
+| `nanobot/` | pin → Abyss-c0re/nanobot |
+| `grokium/` | pin → Abyss-c0re/grokium |
+| `clanker/` | lab pin |
+| `titanus2/` | lab pin |
+| `nanobot-app/` | wrapper pin |
+| `cubeos/` | public contract stub |
+| `vr-manifest/` | stub |

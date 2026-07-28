@@ -1,0 +1,38 @@
+# ProjectNexus public ecosystem index — pins only, no vendored product dumps.
+# Update pin commit/tag when shipping; never copy full trees here.
+
+[ecosystem]
+name = "ProjectNexus"
+public = "https://github.com/Abyss-c0re/ProjectNexus"
+company = "project-nexus (GitLab private — separate clone)"
+
+[product.nanobot]
+repo = "https://github.com/Abyss-c0re/nanobot"
+tag = "v0.5.1"
+commit = "fac7d75005aff8dd6b5e67c8308b8fd5cd399a01"
+local_dev = "~/Dev/AI/nanobot"
+
+[product.grokium]
+repo = "https://github.com/Abyss-c0re/grokium"
+commit = "98fe0d011d695cec5b5714d1059fe0fd0783be18"
+local_dev = "~/Dev/grokium"
+
+[product.braincube]
+repo = "https://github.com/Abyss-c0re/braincube"
+note = "private research core; not required for public monorepo clone"
+local_dev = "~/Dev/AI/braincube"
+
+[product.clanker]
+repo = "TBD"
+note = "lab tree ~/Dev/Clanker — publish as separate GitHub product when ready"
+local_dev = "~/Dev/Clanker"
+
+[product.titanus2]
+repo = "lab-only"
+note = "Titan 2 meta product; not published as public monorepo dump"
+local_dev = "~/Dev/device-workshop/products/titanus2"
+
+[product.nanobot-app]
+repo = "https://github.com/Abyss-c0re/nanobot-wrapper"
+note = "optional UI wrapper (private); or products/nanobot-app stubs"
+local_dev = "~/Dev/AI/nanobot-wrapper"

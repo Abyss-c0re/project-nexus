@@ -1,58 +1,48 @@
-# Project Nexus · CubeOS Ecosystem
+# ProjectNexus · CubeOS ecosystem index
 
-**Open-source hive OS mesh** for recycling devices into a nanobot-powered network: **Grokium core**, **nanobot** peers, **universal apps** (Web + Android), **Clanker** robot stack, optional **VR** view.
+**Public GitHub monorepo for the hive map** — law, docs, and **version pins** to real product repos.
 
-Independent project. **Not affiliated** with third-party AI labs.
+**Not affiliated** with third-party AI labs. Grok auth/API interop allowed with *your* credentials; no official-product claims.
 
-**Allowed interop:** Grok auth, Grok API, and session import (your credentials). **Forbidden:** claiming this software is an official lab product.
+| Repo | Role |
+|------|------|
+| **This** · [Abyss-c0re/ProjectNexus](https://github.com/Abyss-c0re/ProjectNexus) | Public ecosystem index |
+| Company **project-nexus** (GitLab) | Private — **separate clone**, separate history |
+| [Abyss-c0re/nanobot](https://github.com/Abyss-c0re/nanobot) | C peer binary (SoT) |
+| [Abyss-c0re/grokium](https://github.com/Abyss-c0re/grokium) | Agent harness (SoT) |
 
-## The Key
+## Why not one giant monorepo of code?
 
-| Law | Practice |
-|-----|----------|
-| **No personal data. Never.** | State Matrix binary only on the mesh |
-| **Integrity fails closed** | Leak / unknown egress → DENY |
-| **Cube is SoT** | Lattice wins over prose |
-| **Devices free** | User sovereign per device; recycle into CubeOS |
-| **Move honestly** | No invented success |
-
-Full law: [`docs/cube/CUBE_LAW.md`](docs/cube/CUBE_LAW.md) · Architecture: [`docs/ECOSYSTEM.md`](docs/ECOSYSTEM.md)
-
-## Tree
-
-```
-products/grokium       Core harness — deploy & oversee nanobots
-products/nanobot       C binary peer
-products/nanobot-app   Universal Web + Android clients
-products/clanker       Robot stack (no tokens · no Kinect)
-products/cubeos        Shared Linux/Android mesh contracts
-products/vr-manifest   Optional VR interaction
-cores/state-matrix     SMX core notes
-cores/integrity        Integrity shell notes
-docs/                  Security · privacy · compliance · cube
-.agents/               Manager · watcher · handoff bus
-```
+An ecosystem is versioned as **many product git roots + one index**, not stale copies of every tree.  
+Pins live in [`products/MANIFEST.toml`](products/MANIFEST.toml).
 
 ## Quick start
 
 ```bash
-# Manager (always-on collab)
-.agents/manager/manager.sh start
+# Product that actually runs:
+git clone https://github.com/Abyss-c0re/nanobot.git && cd nanobot && make host
 
-# Nanobot binary
-cd products/nanobot && make host && ./build/nanobot --offline -p 'hello'
+# Harness:
+git clone https://github.com/Abyss-c0re/grokium.git
 
-# Universal web peer UI
-cd products/nanobot-app/web && python3 -m http.server 8791
-
-# Grokium core (local)
-cd products/grokium && ./scripts/grokium selftest   # when env ready
+# This index only:
+git clone https://github.com/Abyss-c0re/ProjectNexus.git
 ```
 
-## Compliance
+## Tree
 
-Partner security/privacy obligations (debranded): [`docs/COMPLIANCE.md`](docs/COMPLIANCE.md), [`docs/PRIVACY.md`](docs/PRIVACY.md), [`docs/SECURITY.md`](docs/SECURITY.md).
+```
+docs/           Cube law, publish policy, ecosystem
+products/       PIN packages only (README + UPSTREAM_PIN)
+cores/          Public notes (not full Neural* dumps)
+.agents/        Public agent ops plane (no secrets)
+```
+
+## Publish
+
+See [`docs/PUBLISH.md`](docs/PUBLISH.md): push **only** `github` → ProjectNexus.  
+Never document company/lab hostpaths in this tree.
 
 ## License
 
-Per-product (Apache-2.0 Grokium · MIT nanobot · see tree). SPDX root license TBD.
+Per-product (MIT nanobot · Apache-2.0 grokium · see product repos).
