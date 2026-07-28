@@ -1,0 +1,2 @@
+repo=https://github.com/Abyss-c0re/grokium
+commit=98fe0d011d695cec5b5714d1059fe0fd0783be18

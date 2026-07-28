@@ -1,5 +1,4 @@
-# ProjectNexus public ecosystem index — pins only, no vendored product dumps.
-# Update pin commit/tag when shipping; never copy full trees here.
+# ProjectNexus public ecosystem index — pins only
 
 [ecosystem]
 name = "ProjectNexus"
@@ -19,20 +18,17 @@ local_dev = "~/Dev/grokium"
 
 [product.braincube]
 repo = "https://github.com/Abyss-c0re/braincube"
-note = "private research core; not required for public monorepo clone"
+note = "private"
 local_dev = "~/Dev/AI/braincube"
 
 [product.clanker]
 repo = "TBD"
-note = "lab tree ~/Dev/Clanker — publish as separate GitHub product when ready"
 local_dev = "~/Dev/Clanker"
 
 [product.titanus2]
 repo = "lab-only"
-note = "Titan 2 meta product; not published as public monorepo dump"
 local_dev = "~/Dev/device-workshop/products/titanus2"
 
-[product.nanobot-app]
+[product.nanobot-wrapper]
 repo = "https://github.com/Abyss-c0re/nanobot-wrapper"
-note = "optional UI wrapper (private); or products/nanobot-app stubs"
 local_dev = "~/Dev/AI/nanobot-wrapper"
