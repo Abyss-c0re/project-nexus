@@ -1,23 +1,32 @@
-# Project Nexus publish policy (public GitHub tree)
+# Publish policy — two separate repositories
 
-| Remote | Role | Push from **this** public tree |
-|--------|------|--------------------------------|
-| **github** | Public OSS (`github.com/Abyss-c0re/project-nexus`) | **yes** (default) |
-| **company** | Private company GitLab | **never** |
-| **lab-station** | Private lab SoT | lab only; **never document host/IP/SFTP paths in-tree** |
+| Name | Host | Role | This public clone |
+|------|------|------|-------------------|
+| **ProjectNexus** | GitHub `Abyss-c0re/ProjectNexus` | Public OSS / Cube surface | **push yes** (`github`) |
+| **project-nexus** | Company GitLab (private) | Company work only | **never push from here** |
+
+They are **different repos** (different remotes, different history after scrub).  
+Do **not** treat them as two remotes of one tree.
 
 ## Rules
 
-1. **GitHub and company GitLab are separate remotes / separate policies.** Do not mirror secrets either way.
-2. Public commits must **not** contain: company GitLab hostnames, LAN IPs, SFTP/SSH lab paths, personal work emails, or internal product URLs.
-3. Lab topology lives only on lab machines (gitignored local config or out-of-tree notes).
-4. Grokium is a **separate** public product when published — not a nested brand dump inside this monorepo without its own repo boundary.
+1. Public clone remotes: **only** `github` → `https://github.com/Abyss-c0re/ProjectNexus.git`
+2. Company work: **separate clone** of company `project-nexus` (GitLab) on a private path
+3. Never document company GitLab hostnames, lab LAN/SFTP paths, or personal work emails in **ProjectNexus**
+4. Move code between worlds with **reviewed patches**, not shared remotes / force-sync
+5. Product code that has its own public repo (e.g. `nanobot`, future `grokium`) is **linked/pinned**, not forever vendored stale
 
-## Public push only
+## Public push
 
 ```bash
-git remote -v   # expect github only on clean public clones
+cd ~/Dev/project-nexus   # public working tree
+git remote -v            # github → Abyss-c0re/ProjectNexus only
 git push github master
 ```
 
-Never `git push` company or station remotes from an agent session unless Commander explicitly orders it **and** the tree is scrubbed.
+## Company push
+
+```bash
+cd ~/Dev/project-nexus-company   # private clone of company project-nexus
+git push origin master          # company remote only
+```
